@@ -26,10 +26,13 @@ app.get("/api/timestamp/:date_string?", function(req, res) {
     try {
       if(isNaN(Number(input))) {
         date = new Date(input); //input is utc time
+        console.log(date);
+        if(isNaN(date.valueOf())) {
+          res.json({"error" : "Invalid Date" })
+        }
       } else {
         date = new Date(input * 1000); //input is unix time
       }
-      
     } catch (err) {
       res.json({"error" : "Invalid Date" })
     }
