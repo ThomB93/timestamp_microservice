@@ -11,8 +11,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -35,7 +35,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602013017645</updated>
-      <workItem from="1602013026797" duration="3490000" />
+      <workItem from="1602013026797" duration="3806000" />
     </task>
     <servers />
   </component>
