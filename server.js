@@ -31,7 +31,7 @@ app.get("/api/timestamp/:date_string?", function(req, res) {
           res.json({"error" : "Invalid Date" })
         }
       } else {
-        date = new Date(input * 1000); //input is unix time
+        date = new Date(parseInt(input)); //input is unix time
       }
     } catch (err) {
       res.json({"error" : "Invalid Date" })
